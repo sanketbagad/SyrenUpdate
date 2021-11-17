@@ -18,8 +18,8 @@ const Data = () => {
                
                 <Card.Text>
                 <ul>
-                    <li>Exception mgmt tool </li>
-                    <li>Exception mgmt tool </li>
+                    <li>long label tool </li>
+                    <li>long label toool </li>
                 </ul>
                 </Card.Text>
             </Card.Body>
