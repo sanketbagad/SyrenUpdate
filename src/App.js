@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import Favourites from './Components/Favourites/Favourites';
 import Links from './Components/Links/Links';
 import Control from './Components/Control/Control';
+import Data from './Components/Data/Data';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
        <Favourites />
        <Links />
        <Control />
+       <Data />
      </Container>
     </Container>
   );

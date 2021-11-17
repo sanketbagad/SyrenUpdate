@@ -6,7 +6,17 @@ const Control = () => {
         <Container style={{marginTop:"2rem"}}>
         <Row>
         <Col> <h4><i class="fas fa-bars"></i> Control Tower</h4> </Col>
-    <Col style={{display:"flex", justifyContent:"flex-end"}}> </Col>
+    <Col style={{display:"flex", justifyContent:"flex-end"}}>
+        <form action="/action_page.php">
+        <label for="cars"></label>
+        <select id="cars" name="cars">
+            <option value="volvo">By Frequency</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        </form>
+    </Col>
         </Row>
         <Row>
           <Col>
