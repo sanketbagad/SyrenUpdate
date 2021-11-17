@@ -2,16 +2,16 @@ import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 const Data = () => {
     return (
-        <Container style={{marginTop:"2rem"}}>
+        <Container style={{marginTop:"2rem", marginBottom:"1rem"}}>
         <Row>
         <Col> <h4><i class="fas fa-bars"></i> Data Visualization</h4> </Col>
     <Col style={{display:"flex", justifyContent:"flex-end"}}> </Col>
         </Row>
         <Row>
           <Col>
-          <Card style={{ width: '18rem', borderTop:"solid", borderTopColor:"blue", marginTop:"1rem" }}>
+          <Card style={{ width: '14rem', borderTop:"solid", borderTopColor:"blue", marginTop:"1rem" }}>
             <Card.Body>
-                <div style={{display:"flex", justifyContent:"space-between"}}>
+                <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
                 <Card.Title><i class="far fa-star"></i> Connected <br/>Visibilty</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"><i class="fas fa-cube"></i></Card.Subtitle>
                 </div>
