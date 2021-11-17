@@ -1,11 +1,10 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-
-const Control = () => {
+const Data = () => {
     return (
         <Container style={{marginTop:"2rem"}}>
         <Row>
-        <Col> <h4><i class="fas fa-bars"></i> Control Tower</h4> </Col>
+        <Col> <h4><i class="fas fa-bars"></i> Data Visualization</h4> </Col>
     <Col style={{display:"flex", justifyContent:"flex-end"}}> </Col>
         </Row>
         <Row>
@@ -34,4 +33,4 @@ const Control = () => {
     )
 }
 
-export default Control
+export default Data

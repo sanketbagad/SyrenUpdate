@@ -21,7 +21,7 @@ const Favourites = () => {
     <Col>3 of 3</Col>
     <Col>3 of 3</Col>
     <Col>3 of 3</Col>
-    <Col>3 of 3</Col>
+    <Col></Col>
   </Row>
 </Container>
     )
